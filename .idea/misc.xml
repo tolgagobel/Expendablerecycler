@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Tolga/AndroidStudioProjects/Expendablerecycler/app/src/main/res/layout/activity_detail.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Tolga/AndroidStudioProjects/Expendablerecycler/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Tolga/AndroidStudioProjects/Expendablerecycler/app/src/main/res/layout/activity_marka_ekle.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Tolga/AndroidStudioProjects/Expendablerecycler/app/src/main/res/layout/activity_model_ekle.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Tolga/AndroidStudioProjects/Expendablerecycler/app/src/main/res/layout/each_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Tolga/AndroidStudioProjects/Expendablerecycler/app/src/main/res/layout/pom.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Tolga/Desktop/Expendablerecycler/app/src/main/res/layout/activity_detail.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Tolga/Desktop/Expendablerecycler/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Tolga/Desktop/Expendablerecycler/app/src/main/res/layout/activity_marka_ekle.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Tolga/Desktop/Expendablerecycler/app/src/main/res/layout/activity_model_ekle.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Tolga/Desktop/Expendablerecycler/app/src/main/res/layout/each_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Tolga/Desktop/Expendablerecycler/app/src/main/res/layout/nested_item.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ModelEkle">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <TextView
+            android:background="#DF1D44BD"
+            android:textColor="@color/white"
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Marka"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="33dp" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="63dp"
+
+            />
+
+        <TextView
+            android:background="#DF1D44BD"
+            android:textColor="@color/white"
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Model"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="33dp" />
+
+        <EditText
+            android:id="@+id/editTextModelName"
+            android:textColor="#DF1D44BD"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:background="#DF1D44BD"
+            android:textColor="@color/white"
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Motor"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="33dp" />
+
+        <EditText
+            android:id="@+id/editTextPower"
+            android:textColor="#DF1D44BD"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:ems="10" />
+
+        <TextView
+            android:background="#DF1D44BD"
+            android:textColor="@color/white"
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Model Yılı"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="33dp" />
+
+        <EditText
+            android:textColor="#DF1D44BD"
+            android:id="@+id/editTextModelYear"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:ems="10"/>
+
+        <TextView
+            android:background="#DF1D44BD"
+            android:textColor="@color/white"
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yakıt"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="33dp" />
+
+        <EditText
+            android:textColor="#DF1D44BD"
+            android:id="@+id/editTextYakıt"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:ems="10" />
+
+        <TextView
+            android:background="#DF1D44BD"
+            android:textColor="@color/white"
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vites"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="33dp" />
+
+        <EditText
+            android:textColor="#DF1D44BD"
+            android:id="@+id/editTextVites"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:ems="10"/>
+
+            <Button
+                android:id="@+id/addModel"
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:onClick="addModelClick"
+                android:text="MODEL EKLE" />
+
+
+    </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
